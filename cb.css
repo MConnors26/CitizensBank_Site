@@ -1,0 +1,284 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#welcome {
+    padding-top: 1.5px;
+    padding-bottom: 16px;
+    height: 100px;
+    background-color: rgb(10, 127, 68);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-top: 3px solid;
+    border-color: gray;
+}
+
+#welcome h1, p {
+    padding-left: 25px;
+
+}
+
+#cb-logo {
+    width: 150px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+#fdic {
+    display: flex;
+}
+#fd-logo {
+    padding-left: 30px;
+    width: 50px;
+    height: 22px;
+}
+#p-fdic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#welcome-pop {
+    width: 90%;
+    height: 200px;
+    background-color: rgb(231, 246, 250);
+    border-bottom: 5px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px lightgray;
+    border-radius: 5px;
+}
+
+#wel-message {
+    font-family: Arial, Helvetica, san s-serif;
+    width: 95%;
+}
+
+#wel-message h4{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#wel-message p {
+    padding-left: 40px;
+}
+
+#wel-message a {
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+#login-form {
+    width: 90%;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#userId, #password {
+    width: 35%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+}
+
+#help {
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 50px;
+}
+
+#enroll{
+    margin-left: -23px;
+}
+
+#buttons {
+    display: inline-block;
+}
+#login {
+    width: 150px;
+    height: 50px;
+    font-weight: 900;
+    font-size: 17px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#login:hover {
+    background-color: rgb(144, 48, 14);
+    text-decoration: underline;
+}
+
+#cancel {
+    background-color: transparent;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border:none;
+    text-decoration: underline;
+}
+
+#cancel:hover {
+    background-color: lightgray;
+}
+
+#mainFine {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: -23px;
+}
+
+#navlinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+#comlinks {
+    display: grid;
+}
+
+#comlinks, #helplinks, #resources, #lowlink{
+    text-decoration: none;
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black
+
+}
+
+#lowlink:hover{
+    text-decoration: underline;
+}
+
+
+#helplinks{
+    display: grid;
+    align-items:start;
+}
+
+#resources {
+    display: grid;
+}
+
+#cb-logoL {
+    width: 150px;
+    padding-left: -80px;
+}
+
+#mobile {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#mobile:hover{
+    text-decoration: underline;
+}
+
+#social {
+    width: 100%;
+    background-color: rgb(252, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#soclogo{
+    width: 30px;
+    padding-right: 20px;
+}
+
+#footlinks1 {
+    display: flex;
+    justify-content: left;
+    color: black;
+    background-color: rgb(252, 242, 242);
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+
+#footlinks1 a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-right: 2px lightgray solid;
+}
+
+#disclosures {
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#disclosures h4{
+    padding-left: 40px;
+    color: gray
+}
+
+#line1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#line2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#line1 a{
+    color: lightgray;
+}
+
+#line2 a{
+    color: lightgray;
+}
+
+#fineprint{
+    font-size: 14px;
+    color: gray;
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#fineprint p{
+    line-height: 1.8;
+}
+
+#securities {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border: 0.5px solid gray;
+}
+
+#sectext h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sectext p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer p{
+    font-family: FiraSans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
